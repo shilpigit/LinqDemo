@@ -69,7 +69,7 @@ namespace Linqdemo2
             {
                 Console.WriteLine(subItem.SubjectName);
             }
-
+            
             var subExtraComment = subDemo.Select(x => new subMappingModel
             {
                 SubjectName = x.SubjectName,
