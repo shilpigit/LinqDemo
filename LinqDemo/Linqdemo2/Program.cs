@@ -78,6 +78,7 @@ namespace Linqdemo2
             });
             //contains 
 
+
             List<int> studentIds = new List<int>() { 1, 2, 3, 5 };
             var studentList = stuDemo.Where(x => studentIds.Contains(x.studentID)).ToList();
             var test7 = stuDemo.Select(x => new { Tempname = x.Name, TempID = x.studentID }).ToList();//anonymous
